@@ -1,0 +1,9 @@
+[package]
+name = "async-python-ffi"
+version = "0.1.0"
+authors = ["Andreas Runfalk <andreas@runfalk.se>"]
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+bench = false
